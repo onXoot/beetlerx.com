@@ -17,6 +17,7 @@ url: http://beetlerx.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+favicon: /favicon.png
 
 # Directory
 source_dir: source
