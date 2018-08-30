@@ -1,7 +1,8 @@
 ---
 title: idea tostring template
 date: 2018-08-28 11:57:02
-tags: idea toString template
+tags: [idea, toString, template]
+categories: "idea 配置相关"
 ---
 idea 是一款强大的ide, 在编写java 代码是可大大提高我们的效率，不仅可以一键生成 getter setter 方法,
 还能生成 toString 方法，下面介绍一些如何生成 json 风格的 toString方法

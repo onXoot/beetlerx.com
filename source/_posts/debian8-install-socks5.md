@@ -1,7 +1,8 @@
 ---
 title: debian 8 安装 socks5 代理
 date: 2018-08-03 17:32:46
-tags: debian socks
+tags: [debian, socks]
+categories: linux 工具
 ---
 ### 安装 build工具
 
