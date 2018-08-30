@@ -57,4 +57,4 @@ return "$classname{}";
 ```
 ##### 使用
 按照刚才的方法设置好模版之后，下次生成toString 方法的时选择 json 的模版就可以了
-![Pjue9e.md.gif](https://s1.ax1x.com/2018/08/30/Pjue9e.md.gif)
+![Pjue9e.md.gif](https://s1.ax1x.com/2018/08/30/Pjue9e.gif)
