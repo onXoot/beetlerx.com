@@ -15,7 +15,7 @@ idea 是一款强大的ide, 在编写java 代码是可大大提高我们的效�
 ##### 下拉 template 可以看到 idea 自带的各种模版
 ![PjZrSs.md.png](https://s1.ax1x.com/2018/08/30/PjZrSs.md.png)
 
-点击 setting , 然后点击加号 输入模版名称，比如json 然后在邮编的编辑框输入下面的代码
+点击 setting , 然后点击加号 输入模版名称，比如json 然后在右边的编辑框输入文章最下面下面的代码
 
 ![Pjmfz9.md.png](https://s1.ax1x.com/2018/08/30/Pjmfz9.md.png)
 
