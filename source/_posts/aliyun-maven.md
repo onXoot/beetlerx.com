@@ -5,19 +5,19 @@ tags: maven
 categories: linux 工具
 ---
 
-### 创建账号
+### 1 创建账号
 已有的可以跳过这一步
-#### 打开 maven.aliyun.com 
+#### 1.1 打开 maven.aliyun.com 
 点击 maven 私有仓库服务
 
 ![ippEYd.md.png](https://s1.ax1x.com/2018/09/04/ippEYd.md.png)
 
-#### 登录
-账号,为了方便，我这里直接选择支付宝扫码登录
+#### 1.2 登录
+登录账号,为了方便，我这里直接选择支付宝扫码登录
 
 ![ippMm8.md.png](https://s1.ax1x.com/2018/09/04/ippMm8.md.png)
 
-#### 创建企业
+#### 1.2 创建企业
 已有的可以跳过这一步
 打开如果没有企业，会提示创建企业，点击新建第一家企业
 ![iSxzN9.md.png](https://s1.ax1x.com/2018/09/04/iSxzN9.md.png)
@@ -28,16 +28,16 @@ categories: linux 工具
 重新打开 maven.aliyun.com,点击私有仓库服务，就有了，可以看到下面样子
 ![ippOnf.png](https://s1.ax1x.com/2018/09/04/ippOnf.png)
 
-### 本地使用
-#### 配置 maven
+### 2 本地使用
+#### 2.1 配置 maven
 点击上图中的 仓库配置按钮，按照提示中的说明分别添加 servers 和 profiles， 
 下面是我的配置，红框内是新加的配置，注意我改了id名字，后面要用这个
 ![ip9Shj.png](https://s1.ax1x.com/2018/09/04/ip9Shj.png)
-#### 项目配置
+#### 2.2 项目配置
 在本地的项目pom配置中添加要发布的舱库 id 和 url,注意红框里的id 是刚才配置的 server id 
 ![ip9ABT.png](https://s1.ax1x.com/2018/09/04/ip9ABT.png)
 
-#### 发布 jar 包
+#### 2.3 发布 jar 包
 在项目的pom文件中添加下面的代码，指定要打包的类型为 jar 包
 ```
 <packaging>jar</packaging>
@@ -66,7 +66,7 @@ categories: linux 工具
 上传后自己就能用了，下面是我上传的，复制红框里的坐标就能用了
 ![ip9Qjx.png](https://s1.ax1x.com/2018/09/04/ip9Qjx.png)
 
-### 示例代码
+### 3 示例代码
 文中 hello-world 的代码
 github: https://github.com/onXoot/jar-hello-world
 打不开github的可以访问 oschina
